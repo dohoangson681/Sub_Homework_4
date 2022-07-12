@@ -3,3 +3,6 @@
     padding: 0px ;
     box-sizing: border-box;
 }
+.formBai1>label {
+    min-width: 200px ;
+}
