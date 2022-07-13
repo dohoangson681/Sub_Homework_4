@@ -141,7 +141,7 @@ function prevDate(date , month , year) {
                 prevMonth  = 12 ; 
                 prevYear = year - 1 ; 
             }else if(date == 1 && month > 1 && month != 3 ){
-                prevDate == 31 ; 
+                prevDate = 31 ; 
                 prevMonth = month - 1 ; 
                 prevYear = year ; 
             }else if(date == 1 && month == 3){

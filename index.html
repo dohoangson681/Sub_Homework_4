@@ -31,6 +31,7 @@
             </div>
             <div class="col-9">
               <div class="tab-content" id="v-pills-tabContent">
+                <!-- bai 1  -->
                 <div class="tab-pane fade show active" id="Bai1" role="tabpanel" >
                   <h3 class="text-center text-primary mb-5">Tính ngày tháng năm</h3>
                   <form class="formBai1">
@@ -47,11 +48,69 @@
                   <h3 id="prevDate" class="text-danger"></h3>
                 </div>
                 <!-- bai 2  -->
-                <div class="tab-pane fade" id="Bai2" role="tabpanel">Bài 2</div>
+                <div class="tab-pane fade" id="Bai2" role="tabpanel">
+                  <h3>Kiểm tra số ngày trong tháng</h3>
+                  <form class="formBai2">
+
+                    <label for="monthBai2">Nhập vào tháng : </label>
+                    <input type="number" id="monthBai2"> <br>
+
+                    <label for="yearBai2">Nhập vào năm : </label>
+                    <input type="number" id="yearBai2"> <br>
+
+                    <button type="button" id="btnBai2" class="btn btn-primary my-4">Số ngày trong tháng</button>
+                  </form>
+                  <h3 id="resultBai2" class="text-success">Số ngày trong tháng </h3>
+
+                </div>
                 <!-- bai 3  -->
-                <div class="tab-pane fade" id="Bai3" role="tabpanel" >Bài 3</div>
+                <div class="tab-pane fade" id="Bai3" role="tabpanel" >
+                  <h3 class="text-center text-success my-3">Cách đọc của số có 3 chữ số.</h3>
+                  <form>
+                    <label for="inputBai3">Nhập vào 1 số có 3 chữ số : </label>
+                    <input type="number" id="inputBai3"> <br>
+                    <button type="button" id="btnBai3" class="btn btn-primary my-4">Số được đọc là</button>
+                  </form>
+                  <h3 id="result3" class="text-primary">Cách đọc là</h3>
+                </div>
                 <!-- bai 4  -->
-                <div class="tab-pane fade" id="Bai4" role="tabpanel" >Bài 4</div>
+                <div class="tab-pane fade" id="Bai4" role="tabpanel" >
+                  <h3 class="text-center text-primary mb-3">Tìm sinh viên ở xa trường nhất</h3>
+                  <form class="formBai4">
+                    <!-- sinh vien thu 1  -->
+                    <label for="firstStudent">Tên sinh viên thứ 1 : </label>
+                    <input type="text"  id="firstStudent"> <br>
+                    <p class=" text-primary text-uppercase my-2">Tọa độ của sinh viên thứ 1</p>
+                    <label for="firstPosX">Tọa độ X</label>
+                    <input type="number" id="firstPosX"> <br>
+                    <label for="firstPosY">Tọa độ Y</label>
+                    <input type="number" id="firstPosY"> <br>
+                    <!-- sinh vien thu 2 -->
+                    <label class="mt-5" for="secondStudent">Tên sinh viên thứ 2 : </label>
+                    <input type="text"  id="secondStudent"> <br>
+                    <p class="text-primary text-uppercase my-2">Tọa độ của sinh viên thứ 2</p>
+                    <label for="secondPosX">Tọa độ X</label>
+                    <input type="number" id="secondPosX"> <br>
+                    <label for="secondPosY">Tọa độ Y</label>
+                    <input type="number" id="secondPosY"> <br>
+                    <!-- sinh vien thu 3  -->
+                    <label class="mt-5" for="thirdStudent">Tên sinh viên thứ 3 : </label>
+                    <input type="text"  id="thirdStudent"> <br>
+                    <p class="text-primary text-uppercase my-2">Tọa độ của sinh viên thứ 3</p>
+                    <label for="thirdPosX">Tọa độ X</label>
+                    <input type="number" id="thirdPosX"> <br>
+                    <label for="thirdPosY">Tọa độ Y</label>
+                    <input type="number" id="thirdPosY"> <br>
+                    <h3 class="text-primary my-2">Vị trí của trường học.</h3>
+                    <!-- toa do cua truong hoc  -->
+                    <label for="schoolPosX">Tọa độ X</label>
+                    <input type="number" id="schoolPosX"> <br>
+                    <label for="schoolPosY">Tọa độ X</label>
+                    <input type="number" id="schoolPosY"> <br>
+                    <button type="button" id="btnBai4" class="btn btn-primary my-4">Kiểm tra</button>
+                  </form>
+                  <h3 class="text-secondary"><span  id="resultBai4"></span></h3>
+                </div>
               </div>
             </div>
           </div>
